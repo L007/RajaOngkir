@@ -30,20 +30,5 @@ public interface ApiService {
                                @Field("weight") String weight,
                                @Field("courier") String courier
                                );
-//    @GET("movie/popular")
-//    Call <MovieResponse> getMovie(@Query(("api_key")) String api_key);
-//
-//    @GET("movie/{category}")
-//    Call <MovieResponse> getMovieCategory(@Path("category") String category, @Query(("api_key")) String api_key);
-//
-////    @GET("movie/{movie_id}?api_key="+Const.API_KEY)
-////    Call<MovieDetailResponse> getDetail(@Path("movie_id") int movie_id);
-//
-//    @GET("search/movie?language=en-US")
-//    Call<MovieResponse> getSearchMovie(@Query("query") String query, @Query(("api_key")) String api_key);
 
-
-
-//    @GET("/posts/{id_post}/comments")
-//    Call <List<Comment>> getComment(@Path("id_post") int id_post);
 }
